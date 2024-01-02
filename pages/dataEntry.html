@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reception</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/dataEntry.css">
+</head>
+
+<body>
+    <!-- Side nav-->
+    <div class="sidenav">
+        <div class="sidenavHeading">
+            <img src="../assets/images/logo2.png" alt="">
+            <p> CCTH RECEPTION DASHBOARD</p>
+        </div>
+        <div class="horizontalLine"></div>
+
+        <!-- Side nav content-->
+        <div class="sidenavContent">
+            <a href="../index.html"> <img src="../assets/icons/house-solid.svg" alt=""> Home</a>
+            <a href="dataEntry.html">
+                <div> <img src="../assets/icons/file-pen-solid.svg" alt=""> Data Entry</div>
+            </a>
+            <a href="index.html">
+                <div> <img src="../assets/icons/database-solid.svg" alt=""> Records</div>
+            </a>
+            <a href="index.html">
+                <div> <img src="../assets/icons/envelope-solid.svg" alt=""> Messages</div>
+            </a>
+            <a href="index.html">
+                <div> <img src="../assets/icons/gear-solid.svg" alt=""> Settings</div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="mainContent">
+        <!--Horizontal nav bar-->
+        <div class="horizontalnav">
+            <div> <img id="welcomeIcon" src="../assets/icons/user-solid.svg" alt=""> Welcome, John</div>
+            <img id="mh" src="../assets/images/logo1.png" alt="">
+        </div>
+
+        <!--Home-->
+        <div class="homeContent" id="dataEntry">
+            <div class="dataEntryText">
+                <p>Personal Details</p>
+            </div>
+
+            <div class="dataEntryForm">
+
+                <div class="name">
+                    <div class="firstName">
+                        <p>First Name</p>
+                        <input type="text">
+                    </div>
+
+                    <div class="lastName">
+                        <p>Last Name</p>
+                        <input type="text">
+                    </div>
+
+                </div>
+
+                <div class="name" id="gender_age">
+                    <div class="firstName">
+                        <p>Gender</p>
+                        <select name="" id="">
+                            <option value="" disabled selected>Select one</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="lastName">
+                        <p>Age</p>
+                        <input type="number">
+                    </div>
+                        
+                </div>
+
+                
+                <!--Visit Details-->
+                <p class="visitDetailsText">Visit Details</p>
+
+                <div class="name" id="gender_age">
+                    <div class="firstName">
+                        <p>Type of Visit</p>
+                        <select name="" id="">
+                            <option value="" disabled selected>Select one</option>
+                            <option value="">Medical</option>
+                            <option value="">Non medical</option>
+                        </select>
+                    </div>
+
+                    <div class="lastName">
+                        <p>Ward Visiting</p>
+                        <input type="text">
+                    </div>
+                        
+                </div>
+
+                <!--Save Button-->
+                <button class="saveButton">Save</button>
+
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.authImage {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(0,0,255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 270px 270px 0px;
+    box-shadow: 10px 2px 20px 20px rgba(0,0,255,0.25);
+    
+}
+
+.authImage img {
+    width: 80%;
+}
+
+.introText {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+body {
+    display: flex;
+    background-color: rgb(216, 216, 216);
+}
+
+.authForm {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
+}
+
+.rightPane {
+    width:50%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 270px;
+    border-bottom-left-radius: 270px;
+}
+
+.loginForm {
+    /*background-color: red;*/
+    width: 70%;
+    margin-bottom: 90px;
+}
+
+.loginText {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.username, .password {
+    margin-bottom: 20px;
+}
+
+.username p, .password p {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.usernameLabel, .passwordLabel {
+    display: flex;
+    /*background-color: yellow;*/
+    align-items: center;
+}
+
+.username img, .password img {
+    width:18px;
+    margin-bottom:6px;
+    margin-right:5px;
+}
+
+.usernameField, .passwordField {
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid rgb(34, 34, 34);
+    padding-left: 10px;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+.logos {
+    /*background-color: rgba(197, 197, 197, 0.7);*/
+    width: 100%;
+    height:20%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.loginButton {
+    margin-top:20px;
+    background-color: rgba(0,0,255,0.7);
+    width: 170px;
+    height:50px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+}
+
+.loginButton:hover {
+    background-color: white;
+    color: rgba(0,0,255,0.7);
+    border: 2px solid rgba(0,0,255,0.7);
+}
+
+.loginButton img {
+    margin-right: 7px;
+    width: 20px;
+}
+
+.loginButton div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switchAuth {
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+}
